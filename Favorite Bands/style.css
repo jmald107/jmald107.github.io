@@ -1,0 +1,64 @@
+body {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background-color: lightgreen;
+    color: black;
+    padding: 40px 20px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.musician-section {
+    max-width: 900px;
+    margin: 0 auto 50px auto;
+    background: whitesmoke;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: black;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid whitesmoke;
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+tr:hover {
+    background-color: whitesmoke;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}

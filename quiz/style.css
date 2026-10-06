@@ -1,0 +1,28 @@
+body {
+    background-color: lightgray;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.quiz-container {
+    background-color: blanchedalmond;
+    width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.question-block {
+    margin-bottom: 20px;
+}
+
+p {
+    font-weight: bold;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}

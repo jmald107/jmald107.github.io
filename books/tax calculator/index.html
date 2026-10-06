@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tax Calculator</title>
+</head>
+<body>
+
+    <h2>Tax Calculator</h2>
+    
+    <form>
+        <p>Purchase Amount:<input type="number" id="purchaseAmount" step="0.01"></p>
+        
+        <p>
+            <button type="button" onclick="calculate()">Calculate</button>
+        </p>
+        
+        <p>Tax Amount (8.25%):<input type="text" id="taxAmount" disabled></p>
+        
+        <p>Total:<input type="text" id="totalAmount" disabled></p>
+    </form>
+
+    <script>
+        function calculate() {
+            // Get the value from the user input
+            var amount = parseFloat(document.getElementById('purchaseAmount').value);
+
+            // Basic math calculations
+            var tax = amount * 0.0825;
+            var total = amount + tax;
+
+            // Getting Results
+            document.getElementById('taxAmount').value = tax;
+            document.getElementById('totalAmount').value = total;
+        }
+    </script>
+
+</body>
+</html>

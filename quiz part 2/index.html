@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        <h1>Basic Super-Hero Quiz</h1>
+
+        <!-- Q1: Multiple Choice (Single Answer) -->
+        <div class="question">
+            <p>1. Who is Spider-Man secret identity?</p>
+            <label><input type="radio" name="q1" id="q1_Bruce Banner"> Bruce Banner</label><br>
+            <label><input type="radio" name="q1" id="q1_Tom Holland"> Tom Holland</label><br>
+            <label><input type="radio" name="q1" id="q1_Peter Parker"> Peter Parker</label><br>
+            <label><input type="radio" name="q1" id="q1_Bruce Wayne"> Bruce Wayne</label>
+            <p id="q1_feedback" class="feedback"></p>
+        </div>
+
+        <!-- Q2: Multiple Choice (Single Answer) -->
+        <div class="question">
+            <p>2. Who was the first superhero to appear for the MCU?</p>
+            <label><input type="radio" name="q2" id="q2_Bruce Banner"> Bruce Banner (HulK)</label><br>
+            <label><input type="radio" name="q2" id="q2_Tony Stark"> Tony Stark (Iron-Man)</label><br>
+            <label><input type="radio" name="q2" id="q2_Steve Roger"> Steve Roger (Captian-America)</label><br>
+            <label><input type="radio" name="q2" id="q2_Thor"> Thor</label>
+            <p id="q2_feedback" class="feedback"></p>
+        </div>
+
+        <!-- Q3: Checkboxes (Pick multiple) -->
+        <div class="question-block">
+            <p>3. Which superhero can fly? (Select all that apply)</p>
+            <label><input type="checkbox" id="q3_Black Widow"> Black Widow</label><br>
+            <label><input type="checkbox" id="q3_Vision"> Vision</label><br>
+            <label><input type="checkbox" id="q3_Dr.Strange"> Dr.Strange</label><br>
+            <label><input type="checkbox" id="q3_Hawkeye"> Hawkeye</label>
+            <p id="q3_feedback" class="feedback"></p>
+        </div>
+
+        <!-- Q4: Checkboxes (Pick multiple) -->
+        <div class="question-block">
+            <p>4. Who are part of X-Men? (Select all that apply)</p>
+            <label><input type="checkbox" id="q4_Cylcops"> Cylcops</label><br>
+            <label><input type="checkbox" id="q4_The Flash"> The Flash</label><br>
+            <label><input type="checkbox" id="q4_Loki"> Loki</label><br>
+            <label><input type="checkbox" id="q4_Wolverine"> Wolverine</label>
+            <p id="q4_feedback" class="feedback"></p>
+        </div>
+
+        <button onclick="checkQuiz()">Submit Quiz</button>
+
+        <h2 id="result"></h2>
+    </div>
+
+    <script src="code.js"></script>
+</body>
+</html>

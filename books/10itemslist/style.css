@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+ol {
+    margin-top: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}

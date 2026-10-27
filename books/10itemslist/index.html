@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Favorite Items</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>My 10 Favorite Items</h1>
+        <ol id="item-list"></ol>
+        <script>
+        // Array containing 10 favorite items
+        var items = ["Cars", "PS5", "Money", "Gym Clothes", "Earbuds", "Cologne", "Caps", "Converse", "Soccer", "Watches"]; //array
+                
+        document.write("<ol>");
+
+        //loop through all the values in the colors array
+        for( var counter = 0; counter < items.length; counter++)
+        {
+        document.write("<li>" + items[counter] + "</li>");
+        }
+
+        document.write("</ol>")
+        </script>
+    </body>
+</html>
